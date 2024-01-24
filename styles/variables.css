@@ -7,16 +7,14 @@
   --background-color: #000028;
   --main-color: #f1b2ce;
   --accent-color: #ff0070;
-  --tittle-color: #db00ff;
-  --tittle-color-black: #000028;
-  --tittle-color-red-black: #ff0070;
-  --font-body-regular-family: 'IBM Plex mono', sans-serif;
+  --title-color: #db00ff;
+  --title-color-black: #000028;
+  --title-color-red-black: #ff0070;
+  --button-border-hover: 1px solid rgba(255, 0, 112, 0.4);
+  --font-body-regular-family: 'IBM Plex mono', monospace;
   --font-body-regular-weight: 400;
   --font-body-regular-height: 130%;
   --font-body-regular-size: 18px;
 
-  --font-body-bold-family: 'IBM Plex mono', sans-serif;
   --font-body-bold-weight: 700;
-  --font-body-bold-height: 130%;
-  --font-body-bold-size: 18px;
 }

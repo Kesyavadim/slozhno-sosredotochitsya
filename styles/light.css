@@ -16,7 +16,7 @@
   --title-color-black: #353430;
   --title-color-red-black: #353430;
   --button-border-hover: 1px solid rgba(50, 49, 45, 0.4);
-  --background-image: url(/images/cover-image-light.png);
+  --background-image: url(../images/cover-image-light.png);
 }
 
 @media (prefers-color-scheme: light) {
@@ -28,7 +28,7 @@
     --title-color-black: #353430;
     --title-color-red-black: #353430;
     --button-border-hover: 1px solid rgba(50, 49, 45, 0.4);
-    --background-image: url(/images/cover-image-light.png);
+    --background-image: url(../images/cover-image-light.png);
   }
 }
 

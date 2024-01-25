@@ -43,6 +43,7 @@
 .rec::before {
   content: 'REC';
   color: var(--accent-color);
+  font-family: var(--font-body-regular-family);
 }
 
 .rec::after {
@@ -124,7 +125,7 @@
   align-self: center;
   width: 50%;
   justify-self: end;
-  font-size: var(--font-body-bold-size);
+  font-size: var(--font-body-regular-size);
 }
 
 .title-decor {
@@ -305,7 +306,7 @@ section:not(:last-child) {
   .what_focus-group {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 0;
   }
 
   .poster_picture-group {
@@ -352,6 +353,10 @@ section:not(:last-child) {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
+  }
+
+  .what_focus-group {
+    gap: 0;
   }
 
   section:not(:last-child) {
